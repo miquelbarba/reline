@@ -7,6 +7,10 @@ class Reline::ANSI
   CAPNAME_KEY_BINDINGS = {
     'khome' => :ed_move_to_beg,
     'kend'  => :ed_move_to_end,
+    'kich1' => :ed_ignore,
+    'kdch1' => :key_delete,
+    'kpp' => :ed_ignore,
+    'knp' => :ed_ignore,
     'kcuu1' => :ed_prev_history,
     'kcud1' => :ed_next_history,
     'kcuf1' => :ed_next_char,
